@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Study Tools — a responsive collection of useful study tools and websites.">
+  <link rel="icon" type="image/svg+xml" href="studyhub-icon.svg">
+    <title>Study Tools | StudyHub</title>
+  <link rel="icon" href="img/study.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-progress"></div>
+
+  <header class="nav">
+    <a class="brand" href="index.html" aria-label="StudyHub home">
+      <span class="brand-icon">🐺</span>
+      <span>Study<span>Hub</span></span>
+    </a>
+    <div class="nav-actions">
+      <a class="nav-btn" href="index.html">Tools</a>
+      <a class="nav-btn" href="WEBSIDE1.html">Websites</a>
+      <a class="nav-btn" href="WEBSIDE1.html">Next Page →</a>
+      <button class="theme-btn" id="themeBtn" type="button">☀️ Light</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="orb one"></div><div class="orb two"></div>
+      <div class="eyebrow"><img class="title-icon" src="studyhub-icon.svg" alt="StudyHub icon"> StudyHub</div>
+      <h1>Study Tools</h1>
+      <p>Your first study website, upgraded with a modern responsive design, search, animations and quick-access cards.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#resources">Explore Resources ↓</a>
+        <a class="btn secondary" href="index.html">View All Pages</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>50</strong><span>Resources on this page</span></div>
+        <div class="stat"><strong>100+</strong><span>Total resources</span></div>
+        <div class="stat"><strong>Free</strong><span>Quick-access collection</span></div>
+      </div>
+    </section>
+
+    <section id="resources">
+      <div class="toolbar">
+        <div class="search">
+          <span class="search-icon">🔎</span>
+          <input id="searchInput" type="search" placeholder="Search resources..." autocomplete="off">
+        </div>
+        <div class="count" id="resultCount">50 resources shown</div>
+      </div>
+
+      <div class="section-head">
+        <div>
+          <h2>Explore <span>Resources</span></h2>
+          <p>Click any card to open the resource in a new tab.</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        
+        <article class="tool-card reveal" data-name="python online compiler">
+          <a class="tool-link" href="https://www.programiz.com/python-programming/online-compiler/" target="_blank" rel="noopener noreferrer" aria-label="Open Python Online Compiler">
+            <div class="tool-number">1</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=programiz.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Python Online Compiler</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="visual studio code">
+          <a class="tool-link" href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Visual Studio Code">
+            <div class="tool-number">2</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=code.visualstudio.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Visual Studio Code</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="chatgpt">
+          <a class="tool-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer" aria-label="Open ChatGPT">
+            <div class="tool-number">3</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>ChatGPT</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="microsoft copilot">
+          <a class="tool-link" href="https://copilot.microsoft.com/chats/cVLg7HLRiyFpx3jbV2bza" target="_blank" rel="noopener noreferrer" aria-label="Open Microsoft Copilot">
+            <div class="tool-number">4</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=copilot.microsoft.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Microsoft Copilot</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="node.js">
+          <a class="tool-link" href="https://nodejs.org/en/download" target="_blank" rel="noopener noreferrer" aria-label="Open Node.js">
+            <div class="tool-number">5</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=nodejs.org&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Node.js</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="blackbox ai">
+          <a class="tool-link" href="https://www.blackbox.ai/" target="_blank" rel="noopener noreferrer" aria-label="Open Blackbox AI">
+            <div class="tool-number">6</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=blackbox.ai&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Blackbox AI</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="java">
+          <a class="tool-link" href="https://www.oracle.com/in/java/technologies/downloads/" target="_blank" rel="noopener noreferrer" aria-label="Open Java">
+            <div class="tool-number">7</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=oracle.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Java</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="python">
+          <a class="tool-link" href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer" aria-label="Open Python">
+            <div class="tool-number">8</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=python.org&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Python</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="c++">
+          <a class="tool-link" href="https://turbo-c.en.download.it/" target="_blank" rel="noopener noreferrer" aria-label="Open C++">
+            <div class="tool-number">9</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=turbo-c.en.download.it&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>C++</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="powerpoint">
+          <a class="tool-link" href="https://www.wps.com/academy/ppt-presentation" target="_blank" rel="noopener noreferrer" aria-label="Open PowerPoint">
+            <div class="tool-number">10</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=wps.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>PowerPoint</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="opera browser">
+          <a class="tool-link" href="https://www.opera.com/download" target="_blank" rel="noopener noreferrer" aria-label="Open Opera Browser">
+            <div class="tool-number">11</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=opera.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Opera Browser</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="firefox">
+          <a class="tool-link" href="https://mozilla-firefox.en.softonic.com/download" target="_blank" rel="noopener noreferrer" aria-label="Open Firefox">
+            <div class="tool-number">12</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=mozilla-firefox.en.softonic.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Firefox</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="brave browser">
+          <a class="tool-link" href="https://brave.com/en-in/download/" target="_blank" rel="noopener noreferrer" aria-label="Open Brave Browser">
+            <div class="tool-number">13</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=brave.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Brave Browser</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="excel">
+          <a class="tool-link" href="https://www.wps.com/academy/excel-spreadsheet" target="_blank" rel="noopener noreferrer" aria-label="Open Excel">
+            <div class="tool-number">14</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=wps.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Excel</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="wps office">
+          <a class="tool-link" href="https://www.wps.com/academy/download-wps-office-for-windows-10/about-wps/1868523/" target="_blank" rel="noopener noreferrer" aria-label="Open WPS Office">
+            <div class="tool-number">15</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=wps.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>WPS Office</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="llama">
+          <a class="tool-link" href="https://www.llama.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Llama">
+            <div class="tool-number">16</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=llama.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Llama</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="temp mail">
+          <a class="tool-link" href="https://temp-mail.org/en/" target="_blank" rel="noopener noreferrer" aria-label="Open Temp Mail">
+            <div class="tool-number">17</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=temp-mail.org&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Temp Mail</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="hyperui">
+          <a class="tool-link" href="https://www.hyperui.dev/" target="_blank" rel="noopener noreferrer" aria-label="Open HyperUI">
+            <div class="tool-number">18</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=hyperui.dev&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>HyperUI</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="codecombat">
+          <a class="tool-link" href="https://codecombat.com/" target="_blank" rel="noopener noreferrer" aria-label="Open CodeCombat">
+            <div class="tool-number">19</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=codecombat.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>CodeCombat</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="flexbox zombies">
+          <a class="tool-link" href="https://mastery.games/flexboxzombies/" target="_blank" rel="noopener noreferrer" aria-label="Open Flexbox Zombies">
+            <div class="tool-number">20</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=mastery.games&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Flexbox Zombies</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="css diner">
+          <a class="tool-link" href="https://flukeout.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Open CSS Diner">
+            <div class="tool-number">21</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=flukeout.github.io&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>CSS Diner</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="wordtune">
+          <a class="tool-link" href="https://chromewebstore.google.com/detail/wordtune-ai-paraphrasing/nllcnknpjnininklegdoijpljgdjkijc?hl=en&pli=1" target="_blank" rel="noopener noreferrer" aria-label="Open Wordtune">
+            <div class="tool-number">22</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=chromewebstore.google.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Wordtune</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="picture-in-picture extension">
+          <a class="tool-link" href="https://chromewebstore.google.com/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg" target="_blank" rel="noopener noreferrer" aria-label="Open Picture-in-Picture Extension">
+            <div class="tool-number">23</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=chromewebstore.google.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Picture-in-Picture Extension</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="gpt-4">
+          <a class="tool-link" href="https://openai.com/index/gpt-4/" target="_blank" rel="noopener noreferrer" aria-label="Open GPT-4">
+            <div class="tool-number">24</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>GPT-4</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="tinywow">
+          <a class="tool-link" href="https://tinywow.com/" target="_blank" rel="noopener noreferrer" aria-label="Open TinyWow">
+            <div class="tool-number">25</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=tinywow.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>TinyWow</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="printfriendly">
+          <a class="tool-link" href="https://www.printfriendly.com/" target="_blank" rel="noopener noreferrer" aria-label="Open PrintFriendly">
+            <div class="tool-number">26</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=printfriendly.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>PrintFriendly</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="chrome web store">
+          <a class="tool-link" href="https://chromewebstore.google.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Chrome Web Store">
+            <div class="tool-number">27</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=chromewebstore.google.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Chrome Web Store</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="duolingo">
+          <a class="tool-link" href="https://www.duolingo.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Duolingo">
+            <div class="tool-number">28</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=duolingo.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Duolingo</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="grid garden">
+          <a class="tool-link" href="https://cssgridgarden.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Grid Garden">
+            <div class="tool-number">29</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=cssgridgarden.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Grid Garden</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="coding fantasy">
+          <a class="tool-link" href="https://codingfantasy.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Coding Fantasy">
+            <div class="tool-number">30</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=codingfantasy.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Coding Fantasy</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="canva">
+          <a class="tool-link" href="https://www.canva.com/en_in/" target="_blank" rel="noopener noreferrer" aria-label="Open Canva">
+            <div class="tool-number">31</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=canva.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Canva</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="google gemini">
+          <a class="tool-link" href="https://gemini.google.com/app?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_source=google&utm_medium=paid-media&utm_medium=cpc&utm_campaign=bkws&utm_campaign=2024enIN_gemfeb&pt=9008&mt=8&ct=p-growth-sem-bkws&gad_source=1&gclid=Cj0KCQiAkJO8BhCGARIsAMkswygbisWlYNAY9_SG672yxwQU730faADwzAmbRkvfuXMaO8kXakIAYWMaAvnxEALw_wcB&gclsrc=aw.ds" target="_blank" rel="noopener noreferrer" aria-label="Open Google Gemini">
+            <div class="tool-number">32</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Google Gemini</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="sololearn">
+          <a class="tool-link" href="https://www.sololearn.com/en/" target="_blank" rel="noopener noreferrer" aria-label="Open SoloLearn">
+            <div class="tool-number">33</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=sololearn.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>SoloLearn</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="programming hub">
+          <a class="tool-link" href="https://programminghub.io/" target="_blank" rel="noopener noreferrer" aria-label="Open Programming Hub">
+            <div class="tool-number">34</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=programminghub.io&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Programming Hub</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="mimo">
+          <a class="tool-link" href="https://mimo.org/" target="_blank" rel="noopener noreferrer" aria-label="Open Mimo">
+            <div class="tool-number">35</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=mimo.org&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Mimo</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="exercism">
+          <a class="tool-link" href="https://exercism.org/" target="_blank" rel="noopener noreferrer" aria-label="Open Exercism">
+            <div class="tool-number">36</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=exercism.org&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Exercism</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="hackerrank">
+          <a class="tool-link" href="https://www.hackerrank.com/" target="_blank" rel="noopener noreferrer" aria-label="Open HackerRank">
+            <div class="tool-number">37</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=hackerrank.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>HackerRank</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="w3schools">
+          <a class="tool-link" href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer" aria-label="Open W3Schools">
+            <div class="tool-number">38</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=w3schools.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>W3Schools</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="leetcode">
+          <a class="tool-link" href="https://leetcode.com/" target="_blank" rel="noopener noreferrer" aria-label="Open LeetCode">
+            <div class="tool-number">39</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=leetcode.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>LeetCode</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="geeksforgeeks">
+          <a class="tool-link" href="https://www.geeksforgeeks.org/" target="_blank" rel="noopener noreferrer" aria-label="Open GeeksforGeeks">
+            <div class="tool-number">40</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=geeksforgeeks.org&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>GeeksforGeeks</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="perplexity">
+          <a class="tool-link" href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer" aria-label="Open Perplexity">
+            <div class="tool-number">41</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Perplexity</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="midjourney">
+          <a class="tool-link" href="https://www.midjourneyfree.ai/" target="_blank" rel="noopener noreferrer" aria-label="Open Midjourney">
+            <div class="tool-number">42</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=midjourneyfree.ai&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Midjourney</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="descript">
+          <a class="tool-link" href="https://www.descript.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Descript">
+            <div class="tool-number">43</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=descript.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Descript</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="codechef">
+          <a class="tool-link" href="https://www.codechef.com/practice" target="_blank" rel="noopener noreferrer" aria-label="Open CodeChef">
+            <div class="tool-number">44</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=codechef.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>CodeChef</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="gimp">
+          <a class="tool-link" href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer" aria-label="Open GIMP">
+            <div class="tool-number">45</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=gimp.org&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>GIMP</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="adobe express">
+          <a class="tool-link" href="https://www.adobe.com/in/express/" target="_blank" rel="noopener noreferrer" aria-label="Open Adobe Express">
+            <div class="tool-number">46</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=adobe.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Adobe Express</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="figma">
+          <a class="tool-link" href="https://www.figma.com/design/?utm_source=google&utm_medium=cpc&utm_campaign=21049479560&utm_term=online%20design%20tool&utm_content=692128827730&utm_adgroup=157943775766&gad_source=1&gclid=Cj0KCQiAhbi8BhDIARIsAJLOlucGHzof1VLKrAavDDwiMHI3VQh0MwQz2gFOqk1ukIIwV7FuYWrE8ysaAq9eEALw_wcB" target="_blank" rel="noopener noreferrer" aria-label="Open Figma">
+            <div class="tool-number">47</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=figma.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Figma</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="blender">
+          <a class="tool-link" href="https://www.blender.org/" target="_blank" rel="noopener noreferrer" aria-label="Open Blender">
+            <div class="tool-number">48</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=blender.org&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Blender</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="renderforest">
+          <a class="tool-link" href="https://www.renderforest.com/video-animation" target="_blank" rel="noopener noreferrer" aria-label="Open Renderforest">
+            <div class="tool-number">49</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=renderforest.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Renderforest</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="tool-card reveal" data-name="pixlr">
+          <a class="tool-link" href="https://pixlr.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Pixlr">
+            <div class="tool-number">50</div>
+            <div class="image-wrap">
+              <img src="https://www.google.com/s2/favicons?domain=pixlr.com&sz=128" alt="Website logo" loading="lazy">
+            </div>
+            <div class="card-info">
+              <h3>Pixlr</h3>
+              <span class="open-label">Open resource <span>↗</span></span>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="empty" id="empty">No matching resource found. Try another search.</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Made with ❤️ · <span id="year"></span> · StudyHub
+  </footer>
+
+  <script src="node.js"></script>
+</body>
+</html>
